@@ -1,0 +1,81 @@
+body {font-family: "akzidenz-grotesk_bq_light_cRg"; font-size: 16px}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: "akzidenz-grotesk_bq_light_cRg" !important}
+
+
+#AADD_kepot {
+  position: fixed;
+  top: 70%;
+  left: 15px;
+  z-index: 999;
+}
+
+/*N A V B A R*/
+/*.navbar a:hover, a:active {color: red !important}*/
+
+/*C A R O U S E L*/
+/*.carousel-caption {top: 250px !important}*/
+.marco {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 2;
+  padding-left: 0;
+  text-align: center;
+  list-style: none;
+}
+.banda_blanca {height: 33%; position: absolute; top: 33%; background-color: #fff; opacity: 0.5; z-index: 3;}
+.sobre_banda_blanca {height: 33%; position: absolute; top: 33%; z-index: 4; padding-top: 1%}
+.disciplina {font-family: "akzidenz-grotesk_bq_light_cRg"; font-size: 4em ; text-shadow: none; color: #111; margin-bottom: 0%;}
+.sub-disciplina {font-family: "akzidenz-grotesk_bq_light_cRg"; font-size: 2em; text-shadow: none; color: #111;}
+
+
+.marco_flechitas_carousel {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 10;
+  padding-left: 0;
+  text-align: center;
+  list-style: none;
+}
+
+#flechita {position: absolute; top: 50%}
+
+/*Z O N A  K E P O T*/
+.zona_kepot {background-color: #E8413D; padding: 80px 0 80px 0 }
+.padding_110 {padding-top: 110px}
+
+
+/* ========================================
+Media queries
+========================================= */
+@media (min-width: 959px) and (max-width: 1199px) {
+	body {font-size: 12px}
+}
+
+@media only screen and (min-device-width : 979px) and (max-device-width : 1024px)  {
+ body {font-size: 9px}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	body {font-size: 9px}
+
+}
+@media (max-width: 767px) {
+	body {
+		font-size: 8px
+	}
+	
+	.navbar {
+		height: 50px
+	}
+
+	.navbar-nav {
+		margin-top: 0px !important
+	}
+
+}
