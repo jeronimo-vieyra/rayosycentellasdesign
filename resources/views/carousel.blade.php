@@ -3,34 +3,48 @@
 <section>
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-	  </ol>
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="6"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="7"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="8"></li>
+		</ol>
 
 	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner" role="listbox">
 
-	    <!-- <div class="item active">
-	      <img src="img/carousel/carousel-15.jpg" alt="...">
+	   <div class="item active">
+	      <img src="img/carousel/carousel-R&C.jpg" alt="...">
 	      <div class="carousel-caption"></div>
-	    </div> -->
+	    </div>
 
-	    <div class="item active">
-	      <img src="img/carousel/carousel-16.jpg" alt="...">
+	    <div class="item">
+	      <img src="img/carousel/carousel-identidad_corp.jpg" alt="...">
 	      <div class="marco">
 		      <div class="banda_blanca col-xs-12"></div>
 		       <div class="sobre_banda_blanca col-xs-12">
 			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
 		    	  <div class="carousel-caption">
-		    	  	<h2 class="disciplina">IDENTIDAD CORPORATIVA</h2>
+		    	  	<p class="disciplina">IDENTIDAD CORPORATIVA</p>
+  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
+		    	  </div>
+		  	  </div>
+		  </div>
+	    </div>
+
+	     <div class="item">
+	      <img src="img/carousel/carousel-editorial.jpg" alt="...">
+	      <div class="marco">
+		      <div class="banda_blanca col-xs-12"></div>
+		       <div class="sobre_banda_blanca col-xs-12">
+			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
+		    	  <div class="carousel-caption">
+		    	  	<p class="disciplina">EDITORIAL</p>
   		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
 		    	  </div>
 		  	  </div>
@@ -38,44 +52,88 @@
 	    </div>
 
 	    <div class="item">
-	      <img src="img/carousel/carousel-17.jpg" alt="...">
-	      <div class="carousel-caption"></div>
+	      <img src="img/carousel/carousel-packaging.jpg" alt="...">
+	      <div class="marco">
+		      <div class="banda_blanca col-xs-12"></div>
+		       <div class="sobre_banda_blanca col-xs-12">
+			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
+		    	  <div class="carousel-caption">
+		    	  	<p class="disciplina">PACKAGING</p>
+  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
+		    	  </div>
+		  	  </div>
+		  </div>
 	    </div>
 
 	    <div class="item">
-	      <img src="img/carousel/carousel-18.jpg" alt="...">
-	      <div class="carousel-caption"></div>
+	      <img src="img/carousel/carousel-3d.jpg" alt="...">
+	      <div class="marco">
+		      <div class="banda_blanca col-xs-12"></div>
+		       <div class="sobre_banda_blanca col-xs-12">
+			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
+		    	  <div class="carousel-caption">
+		    	  	<p class="disciplina">3D</p>
+  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
+		    	  </div>
+		  	  </div>
+		  </div>
 	    </div>
 
 	    <div class="item">
-	      <img src="img/carousel/carousel-19.jpg" alt="...">
-	      <div class="carousel-caption"></div>
+	      <img src="img/carousel/carousel-producto.jpg" alt="...">
+	      <div class="marco">
+		      <div class="banda_blanca col-xs-12"></div>
+		       <div class="sobre_banda_blanca col-xs-12">
+			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
+		    	  <div class="carousel-caption">
+		    	  	<p class="disciplina">DISEÑO DE PRODUCTOS</p>
+  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
+		    	  </div>
+		  	  </div>
+		  </div>
 	    </div>
 
 	    <div class="item">
-	      <img src="img/carousel/carousel-20.jpg" alt="...">
-	      <div class="carousel-caption"></div>
+	      <img src="img/carousel/carousel-locales.jpg" alt="...">
+	      <div class="marco">
+		      <div class="banda_blanca col-xs-12"></div>
+		       <div class="sobre_banda_blanca col-xs-12">
+			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
+		    	  <div class="carousel-caption">
+		    	  	<p class="disciplina">LOCALES COMERCIALES</p>
+  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
+		    	  </div>
+		  	  </div>
+		  </div>
 	    </div>
 
 	    <div class="item">
-	      <img src="img/carousel/carousel-21.jpg" alt="...">
-	      <div class="carousel-caption"></div>
+	      <img src="img/carousel/carousel-prod_foto.jpg" alt="...">
+	      <div class="marco">
+		      <div class="banda_blanca col-xs-12"></div>
+		       <div class="sobre_banda_blanca col-xs-12">
+			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
+		    	  <div class="carousel-caption">
+		    	  	<p class="disciplina">PRODUCCIONES FOTOGRÁFICAS</p>
+  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
+		    	  </div>
+		  	  </div>
+		  </div>
 	    </div>
 
 	    <div class="item">
-	      <img src="img/carousel/carousel-22.jpg" alt="...">
-	      <div class="carousel-caption"></div>
-	    </div>
-
-	    <div class="item">
-	      <img src="img/carousel/carousel-23.jpg" alt="...">
-	      <div class="carousel-caption"></div>
-	    </div>
-
-	    <div class="item">
-	      <img src="img/carousel/carousel-24.jpg" alt="...">
-	      <div class="carousel-caption"></div>
-	    </div>
+	      <img src="img/carousel/carousel-post-prod.jpg" alt="...">
+	      <div class="marco">
+		      <div class="banda_blanca col-xs-12"></div>
+		       <div class="sobre_banda_blanca col-xs-12">
+			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
+		    	  <div class="carousel-caption">
+		    	  	<p class="disciplina">POS-PRODUCCIÓN</p>
+  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
+		    	  </div>
+		  	  </div>
+		  </div>
+	    </div>-->
 
 	  </div>
 

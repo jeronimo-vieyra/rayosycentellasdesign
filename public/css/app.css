@@ -5924,9 +5924,7 @@ button.close {
     margin-right: -15px;
   }
   .carousel-caption {
-    left: 20%;
-    right: 20%;
-    padding-bottom: 30px;
+    padding-bottom: 3%;
   }
   .carousel-indicators {
     bottom: 20px;
