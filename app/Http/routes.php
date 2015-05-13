@@ -12,6 +12,8 @@
 */
 
 Route::get('/', 'WelcomeController@index');
+Route::get('spanish', 'LanguageController@spanish');
+Route::get('english', 'LanguageController@english');
 
 Route::get('home', 'HomeController@index');
 
