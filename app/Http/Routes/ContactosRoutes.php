@@ -5,7 +5,7 @@
 	Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function()
 	{	
 		// CONTACTOS
-		Route::resource('contactos','ContactosController', ['only' => ['update']]);
+		Route::resource('contactos','ContactosController', ['only' => ['index', 'create','show', 'destroy']]);
 	});
 
 ?>
