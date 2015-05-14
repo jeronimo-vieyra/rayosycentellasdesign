@@ -25,23 +25,19 @@
                             <div class="row">
                               <div class="portfolio-items isotopeWrapper clearfix" id="3">
 
-
-
-
                                 <article class="col-md-4 isotopeItem webdesign">
 									<div class="portfolio-item">
 										<img src="img/portfolio/img1.jpg" alt="" />
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
-												<h5><a href="#">Portfolio name</a></h5>
-												<a href="img/portfolio/img1.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+												<h5><a href="#">Jero</a></h5>
+												<a href="img/portfolio/img1.jpg" class="fancybox" rel="gallery1" title="mira como te baila"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/img2.jpg" class="fancybox hidden " rel="gallery1" title="pasamos por aca"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/img2.jpg" class="fancybox hidden " rel="gallery1"><i class="fa fa-plus fa-2x"></i></a>
 											 </div>
 										 </div>
 									</div>
                                 </article>
-
-
-
 
                                 <article class="col-md-4 isotopeItem photography">
 									<div class="portfolio-item">
@@ -54,7 +50,6 @@
 										 </div>
 									</div>
                                 </article>
-
 
                                 <article class="col-md-4 isotopeItem photography">
 									<div class="portfolio-item">

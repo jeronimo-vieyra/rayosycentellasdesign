@@ -16,9 +16,12 @@
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
 						 <!-- <li class="active"><a href="index.html">Home</a></li> -->
-						<li><a href="#section-que_hacemos">Qué hacemos</a></li>
-						<li><a href="#section-portfolio">Portfolio</a></li>
-						<li><a href="#section-contacto">Contacto</a></li>
+						<li><a href="#section-que_hacemos"><?php echo trans('menu.we_do')?></a></li>
+						<li><a href="#section-portfolio"><?php echo trans('menu.portfolio')?></a></li>
+						<li><a href="#section-contacto"><?php echo trans('menu.contact')?></a></li>
+						<li><a href="{{ url('/spanish') }}">Español</a></li>
+						<li><a href="{{ url('/english') }}">English</a></li>
+
 						<a href="#section-kepot"><img id="AADD_kepot" src="img/AADD_kepot.png" /></a><!-- B O T O N    K E P O T -->
 					</ul>
 				</div><!--/.navbar-collapse -->
