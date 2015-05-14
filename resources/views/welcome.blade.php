@@ -29,37 +29,14 @@
 		<section id="header" class="appear">
 		</section>
 
-
-<!-- H O M E -->
-
-		<!-- <div class="col-xs-12"><img class="img-responsive center-block" src="img/fondo_papelnegro.jpg" alt=""/> -->
-		<!-- <section class="featured">
-				<div class="container">
-					<div class="row mar-bot40">
-
-						<div class="col-md-6 col-md-offset-3">
-							<div class="align-center">
-								<img src="img/logo_RC.png" class="img-responsive center-block" alt=""/>
-								  <h2 class="slogan">Welcome to Amoeba</h2>
-								<p> Lorem ipsum dolor sit amet, natum bonorum expetendis usu ut.
-								Eum impetus offendit disputationi eu, at vim aliquip lucilius praesent.
-								Alia laudem antiopam te ius, sed ad munere integre, ubique facete sapientem nam ut.
-								</p>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</section> -->
-
-@include('menu')
-@include('carousel')
-@include('que_hacemos')
-@include('quienes_somos')
-@include('portfolio')
-@include('kepot')
-@include('contacto')
-@include('footer')
+			@include('menu')
+			@include('carousel')
+			@include('que_hacemos')
+			@include('quienes_somos')
+			@include('portfolio')
+			@include('kepot')
+			@include('contacto')
+			@include('footer')
 
 
 <!-- A A D D   H O M E -->

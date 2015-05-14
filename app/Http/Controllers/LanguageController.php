@@ -1,10 +1,12 @@
 <?php namespace App\Http\Controllers;
 
+use App\Http\Requests;
+
 class LanguageController extends Controller {
 
-	public function spanish()
+	public function spanish(Request $request)
 	{
-		Session::put('lang', 'es');
+		$request->session()->put('lang', 'es');
 		return redirect('/');
 	}
 

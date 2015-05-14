@@ -28,10 +28,8 @@
 	      <div class="marco">
 		      <div class="banda_blanca col-xs-12"></div>
 		       <div class="sobre_banda_blanca col-xs-12">
-			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
 		    	  <div class="carousel-caption">
 		    	  	<p class="disciplina">IDENTIDAD CORPORATIVA</p>
-  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
 		    	  </div>
 		  	  </div>
 		  </div>
@@ -42,10 +40,8 @@
 	      <div class="marco">
 		      <div class="banda_blanca col-xs-12"></div>
 		       <div class="sobre_banda_blanca col-xs-12">
-			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
 		    	  <div class="carousel-caption">
 		    	  	<p class="disciplina">EDITORIAL</p>
-  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
 		    	  </div>
 		  	  </div>
 		  </div>
@@ -56,10 +52,8 @@
 	      <div class="marco">
 		      <div class="banda_blanca col-xs-12"></div>
 		       <div class="sobre_banda_blanca col-xs-12">
-			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
 		    	  <div class="carousel-caption">
 		    	  	<p class="disciplina">PACKAGING</p>
-  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
 		    	  </div>
 		  	  </div>
 		  </div>
@@ -70,10 +64,8 @@
 	      <div class="marco">
 		      <div class="banda_blanca col-xs-12"></div>
 		       <div class="sobre_banda_blanca col-xs-12">
-			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
 		    	  <div class="carousel-caption">
 		    	  	<p class="disciplina">3D</p>
-  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
 		    	  </div>
 		  	  </div>
 		  </div>
@@ -84,10 +76,8 @@
 	      <div class="marco">
 		      <div class="banda_blanca col-xs-12"></div>
 		       <div class="sobre_banda_blanca col-xs-12">
-			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
 		    	  <div class="carousel-caption">
 		    	  	<p class="disciplina">DISEÑO DE PRODUCTOS</p>
-  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
 		    	  </div>
 		  	  </div>
 		  </div>
@@ -98,10 +88,8 @@
 	      <div class="marco">
 		      <div class="banda_blanca col-xs-12"></div>
 		       <div class="sobre_banda_blanca col-xs-12">
-			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
 		    	  <div class="carousel-caption">
 		    	  	<p class="disciplina">LOCALES COMERCIALES</p>
-  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
 		    	  </div>
 		  	  </div>
 		  </div>
@@ -112,10 +100,8 @@
 	      <div class="marco">
 		      <div class="banda_blanca col-xs-12"></div>
 		       <div class="sobre_banda_blanca col-xs-12">
-			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
 		    	  <div class="carousel-caption">
 		    	  	<p class="disciplina">PRODUCCIONES FOTOGRÁFICAS</p>
-  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
 		    	  </div>
 		  	  </div>
 		  </div>
@@ -126,14 +112,12 @@
 	      <div class="marco">
 		      <div class="banda_blanca col-xs-12"></div>
 		       <div class="sobre_banda_blanca col-xs-12">
-			      <!-- <img class="center-block" src="img/logo_ryc_negro.png"> -->
 		    	  <div class="carousel-caption">
 		    	  	<p class="disciplina">POS-PRODUCCIÓN</p>
-  		    	  	<!-- <p class="sub-disciplina">hola</p>  -->
 		    	  </div>
 		  	  </div>
 		  </div>
-	    </div>-->
+	    </div>
 
 	  </div>
 
@@ -143,7 +127,7 @@
 	    <span class="sr-only">Previous</span>
 	  </a>
 	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-	    <span class="fa fa-chevron-right" aria-hidden="true"></span> <!-- class="glyphicon glyphicon-chevron-right" -->
+	    <span class="fa fa-chevron-right" aria-hidden="true"></span>
 	    <span class="sr-only">Next</span>
 	  </a>
 	</div>

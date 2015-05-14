@@ -37,6 +37,7 @@
 												<a href="img/portfolio/aol01.png" class="fancybox" rel="gallery1"><i class="fa fa-plus fa-2x" ></i></a>
 												<a href="img/portfolio/aol02.png" class="fancybox invisible" rel="gallery1"><i class="fa fa-plus fa-2x" ></i></a>
 												<a href="img/portfolio/aol03.png" class="fancybox invisible" rel="gallery1"><i class="fa fa-plus fa-2x"></i></a>
+
 											 </div>
 										 </div>
 									</div>
