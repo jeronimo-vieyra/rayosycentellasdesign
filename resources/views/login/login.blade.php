@@ -36,7 +36,7 @@
 		<div class="form-group">
 			<div class="col-md-6 col-md-offset-4">
 				{!! Form::submit('Iniciar sesion', array('class' => 'btn btn-primary')) !!}
-				<!-- <a href="{{url()}}/password/email ">¿Olvido su contraseña?</a> -->
+				<a href="{{url()}}/password/email ">¿Olvido su contraseña?</a>
 			</div>
 		</div>
 
