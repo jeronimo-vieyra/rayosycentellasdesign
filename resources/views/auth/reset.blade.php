@@ -8,42 +8,41 @@
 				<div class="panel-heading">Restablecer la contraseña</div>
 				<div class="panel-body">
 
-					<form class="form-horizontal" role="form" method="POST" action="{{url()}}/password/reset">
-						<input type="hidden" name="_token" value="{{ csrf_token() }}">
-						<input type="hidden" name="token" value="{{ $token }}">
+					{!! Form::open( array( 'action' => 'Auth\PasswordController@postReset', 'method' => 'POST' , 'class' => 'form-horizontal' ) ) !!}
+
+						{!! Form::hidden('_token', csrf_token()) !!}
+						{!! Form::hidden('token', $token) !!}
 
 						<div class="form-group">
-							<label class="col-md-4 control-label">E-Mail</label>
+							{!! Form::label('username', 'Usuario', array('class' => 'control-label col-md-4')) !!}
 							<div class="col-md-6">
-								<input type="email" class="form-control" name="email" value="{{ old('email') }}">
+								{!! Form::text('username', null, array('class' => 'form-control')) !!}
 							</div>
 						</div>
-						@if ($errors->first('email'))<div class="col-md-6 col-md-offset-4 alert alert-danger">{{$errors->first('email')}}</div>@endif
+						@if ($errors->first('username'))<div class="col-md-6 col-md-offset-4 alert alert-danger">{{$errors->first('username')}}</div>@endif
 
 						<div class="form-group">
-							<label class="col-md-4 control-label">Contraseña</label>
+							{!! Form::label('password', 'Contraseña', array('class' => 'control-label col-md-4')) !!}
 							<div class="col-md-6">
-								<input type="password" class="form-control" name="password">
+								{!! Form::password('password', array('class' => 'form-control')) !!}
 							</div>
 						</div>
 						@if ($errors->first('password'))<div class="col-md-6 col-md-offset-4 alert alert-danger">{{$errors->first('password')}}</div>@endif
 
 						<div class="form-group">
-							<label class="col-md-4 control-label">Confirmar contraseña</label>
+							{!! Form::label('password_confirmation', 'Confirmar contraseña', array('class' => 'control-label col-md-4')) !!}
 							<div class="col-md-6">
-								<input type="password" class="form-control" name="password_confirmation">
+								{!! Form::password('password_confirmation', array('class' => 'form-control')) !!}
 							</div>
 						</div>
 						@if ($errors->first('password_confirmation'))<div class="col-md-6 col-md-offset-4 alert alert-danger">{{$errors->first('password_confirmation')}}</div>@endif
 
 						<div class="form-group">
 							<div class="col-md-6 col-md-offset-4">
-								<button type="submit" class="btn btn-primary">
-									Restablecer la contraseña
-								</button>
+								{!! Form::submit('Restablecer', array('class' => 'btn btn-primary')) !!}
 							</div>
 						</div>
-					</form>
+					{!! Form::close() !!}
 				</div>
 			</div>
 		</div>
