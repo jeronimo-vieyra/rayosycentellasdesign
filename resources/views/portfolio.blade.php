@@ -6,7 +6,7 @@
 					<div class="col-md-offset-3 col-md-6">
 						<div class="section-header">
 							<h2 class="section-heading animated" data-animation="bounceInUp">Portfolio</h2>
-							<p>Estos son algunos de nuestros últimos trabajos</p>
+							<p><?php echo trans('portfolio.subtitle')?></p>
 						</div>
 					</div>
 				</div>
@@ -14,13 +14,13 @@
                         <div class="row">
                           <nav id="filter" class="col-md-12 text-center">
                             <ul>
-                              <li><a href="#" class="current btn-theme btn-small" data-filter="*">todos</a></li>
-                              <li><a href="#"  class="btn-theme btn-small" data-filter=".grafica" >gráfica</a></li>
-                              <li><a href="#"  class="btn-theme btn-small" data-filter=".editorial">Editorial</a></li>
-                              <li><a href="#" class="btn-theme btn-small" data-filter=".3d">modelado 3D</a></li>
-                              <li><a href="#" class="btn-theme btn-small" data-filter=".productos">Productos</a></li>
-                              <li><a href="#" class="btn-theme btn-small" data-filter=".locales">Locales</a></li>
-                              <li><a href="#" class="btn-theme btn-small" data-filter=".fotografia">Fotografía</a></li>
+                              <li><a href="#" class="current btn-theme btn-small" data-filter="*"><?php echo trans('portfolio.filter_all')?></a></li>
+                              <li><a href="#"  class="btn-theme btn-small" data-filter=".grafica" ><?php echo trans('portfolio.filter_graphic')?></a></li>
+                              <li><a href="#"  class="btn-theme btn-small" data-filter=".editorial"><?php echo trans('portfolio.filter_editorial')?></a></li>
+                              <li><a href="#" class="btn-theme btn-small" data-filter=".3d"><?php echo trans('portfolio.filter_3d')?></a></li>
+                              <li><a href="#" class="btn-theme btn-small" data-filter=".productos"><?php echo trans('portfolio.filter_products')?></a></li>
+                              <li><a href="#" class="btn-theme btn-small" data-filter=".locales"><?php echo trans('portfolio.filter_store')?></a></li>
+                              <li><a href="#" class="btn-theme btn-small" data-filter=".fotografia"><?php echo trans('portfolio.filter_photo')?></a></li>
                             </ul>
                           </nav>
                           <div class="col-md-12">

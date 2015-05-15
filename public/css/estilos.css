@@ -38,5 +38,6 @@ h1, h2, h3, h4, h5 {font-family: "akzidenz-grotesk_bq_light_cRg" !important}
 
 .invisible {display: none;}
 
-.blanco_sombra {color: white;     text-shadow: 2px 2px 4px #000000;
-}
+.blanco_sombra {color: white;     text-shadow: 2px 2px 4px #000000;}
+
+.absolute {position: relative;}

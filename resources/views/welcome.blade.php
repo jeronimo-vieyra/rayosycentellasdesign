@@ -27,20 +27,19 @@
 
     <body>
 		<section id="header" class="appear">
+
+            @include('menu')
+            @include('carousel')
+            @include('que_hacemos')
+            @include('quienes_somos')
+            @include('portfolio')
+            @include('kepot')
+            @include('contacto')
+            @include('footer')
+
+            <!-- A A D D   H O M E -->
+                <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
 		</section>
-
-			@include('menu')
-			@include('carousel')
-			@include('que_hacemos')
-			@include('quienes_somos')
-			@include('portfolio')
-			@include('kepot')
-			@include('contacto')
-			@include('footer')
-
-
-<!-- A A D D   H O M E -->
-	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
 
 
 <!-- S C R I P T S  -->

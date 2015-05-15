@@ -1,9 +1,10 @@
 <?php 
 return [
 	"title" => "Contact",
-	"subtitle" => "consultations budgets criticism praise",
+	"subtitle" => "questions? quotations? reviews? compliments?",
 	"name" => "Name",
 	"email" => "E-mail",
 	"subject" => "Subject",
-	"message" => "Message"
+	"message" => "Message",
+	"send" => "Send",
 ];

@@ -19,17 +19,17 @@
 							<form action="{{url('contactos/enviar_consulta')}}" method="post" class="form-horizontal contactForm">
 							  <div class="form-group">
 								<label for="name"><?php echo trans('contact.name')?></label>
-								<input type="text" name="nombre" class="form-control" id="name" placeholder="<?php //echo trans('contact.name')?>" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
+								<input type="text" name="nombre" class="form-control" id="name" placeholder="<?php echo trans('contact.name')?>" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
 								<div class="validation"></div>
 							  </div>
 							  <div class="form-group">
 								<label for="email"><?php echo trans('contact.email')?></label>
-								<input type="email" class="form-control" name="email" id="email" placeholder="<?php //echo trans('contact.email')?>" data-rule="email" data-msg="Please enter a valid email" />
+								<input type="email" class="form-control" name="email" id="email" placeholder="<?php echo trans('contact.email')?>" data-rule="email" data-msg="Please enter a valid email" />
 								<div class="validation"></div>
 							  </div>
 							  <div class="form-group">
 								<label for="subject"><?php echo trans('contact.subject')?></label>
-								<input type="text" class="form-control" name="asunto" id="subject" placeholder="<?php //echo trans('contact.subject')?>" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
+								<input type="text" class="form-control" name="asunto" id="subject" placeholder="<?php echo trans('contact.subject')?>" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
 								<div class="validation"></div>
 							  </div>
 							  <div class="form-group">
@@ -38,7 +38,7 @@
 								<div class="validation"></div>
 							  </div>
 
-							  <button type="submit" class="btn btn-theme pull-left">ENVIAR MENSAJE</button>
+							  <button type="submit" class="btn btn-theme pull-left"><?php echo trans('contact.send')?></button>
 							</form>
 
 						</div>

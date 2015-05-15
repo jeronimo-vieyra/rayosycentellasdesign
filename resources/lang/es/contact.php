@@ -5,5 +5,6 @@ return [
 	"name" => "Nombre",
 	"email" => "E-mail",
 	"subject" => "Asunto",
-	"message" => "Mensaje"
+	"message" => "Mensaje",
+	"send" => "Enviar mensaje",
 ];
