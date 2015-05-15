@@ -123,7 +123,7 @@
 
 	  <!-- Controls -->
 	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-	    <span class="fa fa-chevron-left" aria-hidden="true"></span>
+	    <span class="fa fa-chevron-left " aria-hidden="true"></span>
 	    <span class="sr-only">Previous</span>
 	  </a>
 	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
