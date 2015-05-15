@@ -13,56 +13,10 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<div class="cform" id="contact-form">
-<!-- 
-							{!! Form::open(array('action' => ['ContactosController@enviar_consulta'], 'method' => 'POST' , 'class' => 'form-horizontal contactForm')) !!}
-		
-								<div class="form-group">
-									{!! Form::label('nombre', 'Nombre', array('class' => 'control-label col-md-4')) !!}
-									<div class="col-md-6">
-										{!! Form::text('nombre', null, array('class' => 'form-control')) !!}
-									</div>
-								</div>
-								@if ($errors->first('nombre'))<div class="col-md-6 col-md-offset-4 alert alert-danger">{{$errors->first('nombre')}}</div>@endif
-
-								<div class="form-group">
-									{!! Form::label('email', 'E-mail', array('class' => 'control-label col-md-4')) !!}
-									<div class="col-md-6">
-										{!! Form::text('email',null, array('class' => 'form-control')) !!}
-									</div>
-								</div>
-								@if ($errors->first('email'))<div class="col-md-6 col-md-offset-4 alert alert-danger">{{$errors->first('email')}}</div>@endif
-
-								<div class="form-group">
-									{!! Form::label('asunto', 'Asunto', array('class' => 'control-label col-md-4')) !!}
-									<div class="col-md-6">
-										{!! Form::text('asunto', null, array('class' => 'form-control')) !!}
-									</div>
-								</div>
-								@if ($errors->first('asunto'))<div class="col-md-6 col-md-offset-4 alert alert-danger">{{$errors->first('asunto')}}</div>@endif
-
-								<div class="form-group">
-									{!! Form::label('mensaje', 'Mensaje', array('class' => 'control-label col-md-4')) !!}
-									<div class="col-md-6">
-										{!! Form::textarea('mensaje',null, array('class' => 'form-control', 'rows' => 5)) !!}
-									</div>
-								</div>
-								@if ($errors->first('mensaje'))<div class="col-md-6 col-md-offset-4 alert alert-danger">{{$errors->first('mensaje')}}</div>@endif
-
-								
-								<div class="form-group">
-									<div class="col-md-6 col-md-offset-4">
-										{!! Form::submit('ENVIAR MENSAJE', array('class' => 'btn btn-primary col-md-12')) !!}
-									</div>
-								</div>
-
-							{!! Form::close() !!} -->
-
-
-
 							<div id="sendmessage">
 								 Your message has been sent. Thank you!
 							</div>
-							{!! Form::open(array('action' => ['ContactosController@enviar_consulta'], 'method' => 'POST' , 'class' => 'form-horizontal contactForm')) !!}
+							<form action="{{url('contactos/enviar_consulta')}}" method="post" class="form-horizontal contactForm">
 							  <div class="form-group">
 								<label for="name"><?php echo trans('contact.name')?></label>
 								<input type="text" name="nombre" class="form-control" id="name" placeholder="<?php //echo trans('contact.name')?>" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
@@ -85,7 +39,7 @@
 							  </div>
 
 							  <button type="submit" class="btn btn-theme pull-left">ENVIAR MENSAJE</button>
-							{!! Form::close() !!}
+							</form>
 
 						</div>
 					</div>
