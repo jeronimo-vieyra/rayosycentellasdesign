@@ -54,7 +54,7 @@ return [
 	|
 	*/
 
-	'from' => ['address' => null, 'name' => null],
+	'from' => ['address' => 'hola@rayosycentellasdesign.com', 'name' => 'Rayos & Centellas'],
 
 	/*
 	|--------------------------------------------------------------------------
