@@ -81,6 +81,13 @@ jQuery(document).ready(function($) {
 				$.ajax({
 				type: "POST",
 				url: $(this).attr('action'),
+				beforeSend: function (xhr) {
+            			var token = $('meta[name="csrf-token"]').attr('content');
+            
+			            if (token) {
+			                return xhr.setRequestHeader('X-CSRF-TOKEN', token);
+			            }
+			    },
 				data: str,
 				success: function(msg){
 			$("#sendmessage").addClass("show");

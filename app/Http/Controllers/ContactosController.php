@@ -51,9 +51,7 @@ class ContactosController extends Controller
 			}
 		);
 
-
 		\Session::flash('noticia', 'El CONTACTO fue creada con exito. Se envio el email con exito.');
-		return redirect('admin/contactos');
+		return redirect('/');
 	}
-
 }

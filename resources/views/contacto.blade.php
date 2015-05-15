@@ -16,7 +16,7 @@
 							<div id="sendmessage">
 								 Your message has been sent. Thank you!
 							</div>
-							<form action="{{url('contactos/enviar_consulta')}}" method="post" class="form-horizontal contactForm">
+							<form action="{{url('contacto/enviar_consulta')}}" method="post" class="form-horizontal contactForm">
 							  <div class="form-group">
 								<label for="name"><?php echo trans('contact.name')?></label>
 								<input type="text" name="nombre" class="form-control" id="name" placeholder="<?php echo trans('contact.name')?>" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
