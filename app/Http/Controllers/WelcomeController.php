@@ -30,6 +30,7 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
+		\App::setlocale(\Session::get('lang'));
 		return view('welcome');
 	}
 

@@ -2,5 +2,7 @@
 return [
 	"we_do" => "Qué hacemos",
 	"portfolio"	=> "Porfolio",
-	"contact" => "Contacto"
+	"contact" => "Contacto",
+	"spanish" => "Español",
+	"english" => "Ingles"
 ];
