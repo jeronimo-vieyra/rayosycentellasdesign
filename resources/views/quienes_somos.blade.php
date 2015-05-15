@@ -5,10 +5,10 @@
 					<div class="col-lg-8 col-lg-offset-2">
 							<div class="align-center">
 										<div class="pad-top40 pad-bot40 clearfix"> <!-- testimonial  -->
-											<h3>Rayos y Centellas es un grupo de diseñadores egresados de la Universidad Nacional de La Plata, cuyo objetivo es generar proyectos creativos, al reunir varias disciplinas presentes en el mundo del diseño.
+											<h3 class="blanco_sombra">Rayos y Centellas es un grupo de diseñadores egresados de la Universidad Nacional de La Plata, cuyo objetivo es generar proyectos creativos, al reunir varias disciplinas presentes en el mundo del diseño.
 											</h3>
 											<br/>
-											<span class="author">&mdash; MIKE DOE <a href="#">www.siteurl.com</a></span>
+											<!-- <span class="author">&mdash; MIKE DOE <a href="#">www.siteurl.com</a></span> -->
 										</div>
 
 								</div>

@@ -15,10 +15,12 @@
                           <nav id="filter" class="col-md-12 text-center">
                             <ul>
                               <li><a href="#" class="current btn-theme btn-small" data-filter="*">todos</a></li>
-                              <li><a href="#"  class="btn-theme btn-small" data-filter=".webdesign" >gráfica</a></li>
-                              <li><a href="#"  class="btn-theme btn-small" data-filter=".photography">industrial</a></li>
-                              <li><a href="#" class="btn-theme btn-small" data-filter=".print">make-up</a></li>
-                              <li><a href="#" class="btn-theme btn-small" data-filter=".print">fotografía</a></li>
+                              <li><a href="#"  class="btn-theme btn-small" data-filter=".grafica" >gráfica</a></li>
+                              <li><a href="#"  class="btn-theme btn-small" data-filter=".editorial">Editorial</a></li>
+                              <li><a href="#" class="btn-theme btn-small" data-filter=".3d">modelado 3D</a></li>
+                              <li><a href="#" class="btn-theme btn-small" data-filter=".productos">Productos</a></li>
+                              <li><a href="#" class="btn-theme btn-small" data-filter=".locales">Locales</a></li>
+                              <li><a href="#" class="btn-theme btn-small" data-filter=".fotografia">Fotografía</a></li>
                             </ul>
                           </nav>
                           <div class="col-md-12">
@@ -28,7 +30,24 @@
 
 								<!-- ITEMS webdesign photography print-->
 
-                                <article class="col-md-4 isotopeItem webdesign">
+                                 <article class="col-md-4 isotopeItem locales 3d">
+									<div class="portfolio-item">
+										<img src="img/portfolio/samsung01.png" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="#">Samsung</a></h5>
+												<a href="img/portfolio/samsung01.png" class="fancybox" rel="gallery8"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/samsung02.png" class="fancybox invisible" rel="gallery8"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/samsung03.png" class="fancybox invisible" rel="gallery8"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/samsung04.png" class="fancybox invisible" rel="gallery8"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/samsung05.png" class="fancybox invisible" rel="gallery8"><i class="fa fa-plus fa-2x"></i></a>
+												</div>
+										 </div>
+									</div>
+									<div class="clearfix"></div>
+                                </article>
+
+                                <article class="col-md-4 isotopeItem 3d locales">
 									<div class="portfolio-item">
 										<img src="img/portfolio/aol01.png" alt="" />
 										 <div class="portfolio-desc align-center">
@@ -41,25 +60,10 @@
 											 </div>
 										 </div>
 									</div>
+									<div class="clearfix"></div>
                                 </article>
 
-                                <article class="col-md-4 isotopeItem webdesign">
-									<div class="portfolio-item">
-										<img src="img/portfolio/bazze01.png" alt="" />
-										 <div class="portfolio-desc align-center">
-											<div class="folio-info">
-												<h5><a href="#">Miguel Bazze</a></h5>
-												<a href="img/portfolio/bazze01.png" class="fancybox" rel="gallery2"><i class="fa fa-plus fa-2x" ></i></a>
-												<a href="img/portfolio/bazze02.png" class="fancybox invisible" rel="gallery2"><i class="fa fa-plus fa-2x" ></i></a>
-												<a href="img/portfolio/bazze03.png" class="fancybox invisible" rel="gallery2"><i class="fa fa-plus fa-2x"></i></a>
-												<a href="img/portfolio/bazze04.png" class="fancybox invisible" rel="gallery2"><i class="fa fa-plus fa-2x"></i></a>
-												<a href="img/portfolio/bazze05.png" class="fancybox invisible" rel="gallery2"><i class="fa fa-plus fa-2x"></i></a>
-											 </div>
-										 </div>
-									</div>
-                                </article>
-
-								<article class="col-md-4 isotopeItem webdesign">
+								<article class="col-md-4 isotopeItem editorial">
 									<div class="portfolio-item">
 										<img src="img/portfolio/libro_ana01.png" alt="" />
 										 <div class="portfolio-desc align-center">
@@ -84,9 +88,10 @@
 											 </div>
 										 </div>
 									</div>
+									<div class="clearfix"></div>
                                 </article>
 
-                                <article class="col-md-4 isotopeItem webdesign">
+                                <article class="col-md-4 isotopeItem grafica fotografia">
 									<div class="portfolio-item">
 										<img src="img/portfolio/miel01.png" alt="" />
 										 <div class="portfolio-desc align-center">
@@ -106,9 +111,10 @@
 											 </div>
 										 </div>
 									</div>
+									<div class="clearfix"></div>
                                 </article>
 
-                                <article class="col-md-4 isotopeItem webdesign">
+                                <article class="col-md-4 isotopeItem 3d">
 									<div class="portfolio-item">
 										<img src="img/portfolio/modelado01.png" alt="" />
 										 <div class="portfolio-desc align-center">
@@ -119,12 +125,38 @@
 												<a href="img/portfolio/modelado03.png" class="fancybox invisible" rel="gallery5"><i class="fa fa-plus fa-2x"></i></a>
 												<a href="img/portfolio/modelado04.png" class="fancybox invisible" rel="gallery5"><i class="fa fa-plus fa-2x"></i></a>
 												<a href="img/portfolio/modelado05.png" class="fancybox invisible" rel="gallery5"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/modelado06.png" class="fancybox invisible" rel="gallery5"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/modelado07.png" class="fancybox invisible" rel="gallery5"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/modelado08.png" class="fancybox invisible" rel="gallery5"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/modelado09.png" class="fancybox invisible" rel="gallery5"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/modelado10.png" class="fancybox invisible" rel="gallery5"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/modelado11.png" class="fancybox invisible" rel="gallery5"><i class="fa fa-plus fa-2x"></i></a>
 												</div>
 										 </div>
 									</div>
+									<div class="clearfix"></div>
                                 </article>
 
-                                <article class="col-md-4 isotopeItem webdesign">
+                                 <article class="col-md-4 isotopeItem productos 3d">
+									<div class="portfolio-item">
+										<img src="img/portfolio/plimplim01.png" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="#">Plim Plim</a></h5>
+												<a href="img/portfolio/plimplim01.png" class="fancybox" rel="gallery14"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/plimplim02.png" class="fancybox invisible" rel="gallery14"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/plimplim03.png" class="fancybox invisible" rel="gallery14"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/plimplim04.png" class="fancybox invisible" rel="gallery14"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/plimplim05.png" class="fancybox invisible" rel="gallery14"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/plimplim06.png" class="fancybox invisible" rel="gallery14"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/plimplim07.png" class="fancybox invisible" rel="gallery14"><i class="fa fa-plus fa-2x"></i></a>
+												</div>
+										 </div>
+									</div>
+									<div class="clearfix"></div>
+                                </article>
+
+                                <article class="col-md-4 isotopeItem grafica fotografia">
 									<div class="portfolio-item">
 										<img src="img/portfolio/pilar01.png" alt="" />
 										 <div class="portfolio-desc align-center">
@@ -142,9 +174,10 @@
 												</div>
 										 </div>
 									</div>
+									<div class="clearfix"></div>
                                 </article>
 
-                                <article class="col-md-4 isotopeItem webdesign">
+                                <article class="col-md-4 isotopeItem locales 3d">
 									<div class="portfolio-item">
 										<img src="img/portfolio/rincon01.png" alt="" />
 										 <div class="portfolio-desc align-center">
@@ -161,39 +194,121 @@
 												</div>
 										 </div>
 									</div>
+									<div class="clearfix"></div>
                                 </article>
 
-                                <article class="col-md-4 isotopeItem webdesign">
-									<div class="portfolio-item">
-										<img src="img/portfolio/samsung01.png" alt="" />
-										 <div class="portfolio-desc align-center">
-											<div class="folio-info">
-												<h5><a href="#">Samsung</a></h5>
-												<a href="img/portfolio/samsung01.png" class="fancybox" rel="gallery8"><i class="fa fa-plus fa-2x" ></i></a>
-												<a href="img/portfolio/samsung02.png" class="fancybox invisible" rel="gallery8"><i class="fa fa-plus fa-2x" ></i></a>
-												<a href="img/portfolio/samsung03.png" class="fancybox invisible" rel="gallery8"><i class="fa fa-plus fa-2x"></i></a>
-												<a href="img/portfolio/samsung04.png" class="fancybox invisible" rel="gallery8"><i class="fa fa-plus fa-2x"></i></a>
-												<a href="img/portfolio/samsung05.png" class="fancybox invisible" rel="gallery8"><i class="fa fa-plus fa-2x"></i></a>
-												</div>
-										 </div>
-									</div>
-                                </article>
+                               
 
-                                <article class="col-md-4 isotopeItem webdesign">
+                                <article class="col-md-4 isotopeItem 3d">
 									<div class="portfolio-item">
 										<img src="img/portfolio/ypf01.png" alt="" />
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
 												<h5><a href="#">YPF</a></h5>
 												<a href="img/portfolio/ypf01.png" class="fancybox" rel="gallery9"><i class="fa fa-plus fa-2x" ></i></a>
-												<a href="img/portfolio/samsung02.png" class="fancybox invisible" rel="gallery9"><i class="fa fa-plus fa-2x" ></i></a>
-												<a href="img/portfolio/samsung03.png" class="fancybox invisible" rel="gallery9"><i class="fa fa-plus fa-2x"></i></a>
-												<a href="img/portfolio/samsung04.png" class="fancybox invisible" rel="gallery9"><i class="fa fa-plus fa-2x"></i></a>
-												<a href="img/portfolio/samsung05.png" class="fancybox invisible" rel="gallery9"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/ypf02.png" class="fancybox invisible" rel="gallery9"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/ypf03.png" class="fancybox invisible" rel="gallery9"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/ypf04.png" class="fancybox invisible" rel="gallery9"><i class="fa fa-plus fa-2x"></i></a>
 												</div>
 										 </div>
 									</div>
+									<div class="clearfix"></div>
                                 </article>
+
+
+								<article class="col-md-4 isotopeItem 3d">
+									<div class="portfolio-item">
+										<img src="img/portfolio/messi01.png" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="#">Messi</a></h5>
+												<a href="img/portfolio/messi01.png" class="fancybox" rel="gallery10"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/messi02.png" class="fancybox invisible" rel="gallery10"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/messi03.png" class="fancybox invisible" rel="gallery10"><i class="fa fa-plus fa-2x"></i></a>
+												</div>
+										 </div>
+									</div>
+									<div class="clearfix"></div>
+                                </article>
+
+                                <article class="col-md-4 isotopeItem fotografia">
+									<div class="portfolio-item">
+										<img src="img/portfolio/barfus01.png" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="#">Barfus</a></h5>
+												<a href="img/portfolio/barfus01.png" class="fancybox" rel="gallery11"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/barfus02.png" class="fancybox invisible" rel="gallery11"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/barfus03.png" class="fancybox invisible" rel="gallery11"><i class="fa fa-plus fa-2x"></i></a>
+												</div>
+										 </div>
+									</div>
+									<div class="clearfix"></div>
+                                </article>
+
+                                 <article class="col-md-4 isotopeItem grafica fotografia">
+									<div class="portfolio-item">
+										<img src="img/portfolio/che01.png" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="#">Che</a></h5>
+												<a href="img/portfolio/che01.png" class="fancybox" rel="gallery12"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/che02.png" class="fancybox invisible" rel="gallery12"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/che03.png" class="fancybox invisible" rel="gallery12"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/che04.png" class="fancybox invisible" rel="gallery12"><i class="fa fa-plus fa-2x"></i></a>
+												</div>
+										 </div>
+									</div>
+									<div class="clearfix"></div>
+                                </article>
+
+
+                                <article class="col-md-4 isotopeItem fotografia">
+									<div class="portfolio-item">
+										<img src="img/portfolio/fotografia01.png" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="#">Fotografía</a></h5>
+												<a href="img/portfolio/fotografia01.png" class="fancybox" rel="gallery13"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/fotografia02.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/fotografia03.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/fotografia04.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/fotografia05.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/fotografia06.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/fotografia07.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/fotografia08.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/fotografia09.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/fotografia10.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/fotografia11.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/fotografia12.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/fotografia13.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/fotografia14.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/fotografia15.png" class="fancybox invisible" rel="gallery13"><i class="fa fa-plus fa-2x"></i></a>
+												</div>
+										 </div>
+									</div>
+									<div class="clearfix"></div>
+                                </article> 
+
+                                <article class="col-md-4 isotopeItem grafica fotografia">
+									<div class="portfolio-item">
+										<img src="img/portfolio/bazze05.png" alt="" />
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="#">Miguel Bazze</a></h5>
+												<a href="img/portfolio/bazze01.png" class="fancybox" rel="gallery2"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/bazze02.png" class="fancybox invisible" rel="gallery2"><i class="fa fa-plus fa-2x" ></i></a>
+												<a href="img/portfolio/bazze03.png" class="fancybox invisible" rel="gallery2"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/bazze04.png" class="fancybox invisible" rel="gallery2"><i class="fa fa-plus fa-2x"></i></a>
+												<a href="img/portfolio/bazze05.png" class="fancybox invisible" rel="gallery2"><i class="fa fa-plus fa-2x"></i></a>
+											 </div>
+										 </div>
+									</div>
+									<div class="clearfix"></div>
+                                </article>
+
+
+                               
 
                                
                                 </div>

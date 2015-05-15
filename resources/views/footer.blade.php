@@ -15,7 +15,9 @@
 			</div>
 
 			<div class="row align-center copyright">
-					<div class="col-sm-12"><p>hola@rayosycentellasdesign.com<a href="http://bootstraptaste.com">221 5741715</a></p></div>
+					<div class="col-sm-12">
+						<p>hola@rayosycentellasdesign.com</p> <!--<a href="">221 5741715</a>-->
+					</div>
 			</div>
 		</div>
 

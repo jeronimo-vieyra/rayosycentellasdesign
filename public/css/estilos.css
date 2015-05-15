@@ -37,3 +37,6 @@ h1, h2, h3, h4, h5 {font-family: "akzidenz-grotesk_bq_light_cRg" !important}
 .padding_110 {padding-top: 110px}
 
 .invisible {display: none;}
+
+.blanco_sombra {color: white;     text-shadow: 2px 2px 4px #000000;
+}
