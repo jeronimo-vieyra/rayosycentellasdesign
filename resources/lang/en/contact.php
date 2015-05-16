@@ -1,7 +1,7 @@
 <?php 
 return [
 	"title" => "Contact",
-	"subtitle" => "questions? quotations? reviews? compliments?",
+	"subtitle" => "questions? quotations? opinions? compliments?",
 	"name" => "Name",
 	"email" => "E-mail",
 	"subject" => "Subject",

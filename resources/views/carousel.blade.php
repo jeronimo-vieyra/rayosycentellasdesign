@@ -16,108 +16,107 @@
 		</ol>
 
 	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner" role="listbox">
+	  	<div class="carousel-inner" role="listbox">
+			<div class="item active">
+		    	<img src="img/carousel/carousel-R&C.jpg" alt="...">
+		    	<div class="carousel-caption"></div>
+		    </div>
 
-	   <div class="item active">
-	      <img src="img/carousel/carousel-R&C.jpg" alt="...">
-	      <div class="carousel-caption"></div>
-	    </div>
+			<div class="item">
+		    	<img src="img/carousel/carousel-identidad_corp.jpg" alt="...">
+				<div class="marco">
+					<div class="banda_blanca col-xs-12"></div>
+			    	<div class="sobre_banda_blanca col-xs-12">
+						<div class="carousel-caption">
+							<p class="disciplina"><?php echo trans('carousel.identidad')?></p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-	    <div class="item">
-	      <img src="img/carousel/carousel-identidad_corp.jpg" alt="...">
-	      <div class="marco">
-		      <div class="banda_blanca col-xs-12"></div>
-		       <div class="sobre_banda_blanca col-xs-12">
-		    	  <div class="carousel-caption">
-		    	  	<p class="disciplina">IDENTIDAD CORPORATIVA</p>
-		    	  </div>
-		  	  </div>
-		  </div>
-	    </div>
+			<div class="item">
+				<img src="img/carousel/carousel-editorial.jpg" alt="...">
+				<div class="marco">
+					<div class="banda_blanca col-xs-12"></div>
+					<div class="sobre_banda_blanca col-xs-12">
+						<div class="carousel-caption">
+							<p class="disciplina"><?php echo trans('carousel.editorial')?></p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-	     <div class="item">
-	      <img src="img/carousel/carousel-editorial.jpg" alt="...">
-	      <div class="marco">
-		      <div class="banda_blanca col-xs-12"></div>
-		       <div class="sobre_banda_blanca col-xs-12">
-		    	  <div class="carousel-caption">
-		    	  	<p class="disciplina">EDITORIAL</p>
-		    	  </div>
-		  	  </div>
-		  </div>
-	    </div>
+			<div class="item">
+				<img src="img/carousel/carousel-packaging.jpg" alt="...">
+				<div class="marco">
+					<div class="banda_blanca col-xs-12"></div>
+					<div class="sobre_banda_blanca col-xs-12">
+						<div class="carousel-caption">
+							<p class="disciplina"><?php echo trans('carousel.packaging')?></p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-	    <div class="item">
-	      <img src="img/carousel/carousel-packaging.jpg" alt="...">
-	      <div class="marco">
-		      <div class="banda_blanca col-xs-12"></div>
-		       <div class="sobre_banda_blanca col-xs-12">
-		    	  <div class="carousel-caption">
-		    	  	<p class="disciplina">PACKAGING</p>
-		    	  </div>
-		  	  </div>
-		  </div>
-	    </div>
+			<div class="item">
+				<img src="img/carousel/carousel-3d.jpg" alt="...">
+				<div class="marco">
+					<div class="banda_blanca col-xs-12"></div>
+					<div class="sobre_banda_blanca col-xs-12">
+						<div class="carousel-caption">
+							<p class="disciplina"><?php echo trans('carousel.tresD')?></p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-	    <div class="item">
-	      <img src="img/carousel/carousel-3d.jpg" alt="...">
-	      <div class="marco">
-		      <div class="banda_blanca col-xs-12"></div>
-		       <div class="sobre_banda_blanca col-xs-12">
-		    	  <div class="carousel-caption">
-		    	  	<p class="disciplina">3D</p>
-		    	  </div>
-		  	  </div>
-		  </div>
-	    </div>
+			<div class="item">
+				<img src="img/carousel/carousel-producto.jpg" alt="...">
+				<div class="marco">
+					<div class="banda_blanca col-xs-12"></div>
+					<div class="sobre_banda_blanca col-xs-12">
+						<div class="carousel-caption">
+							<p class="disciplina"><?php echo trans('carousel.productos')?></p>
+						</div>
+					</div>
+				</div>
+		    </div>
 
-	    <div class="item">
-	      <img src="img/carousel/carousel-producto.jpg" alt="...">
-	      <div class="marco">
-		      <div class="banda_blanca col-xs-12"></div>
-		       <div class="sobre_banda_blanca col-xs-12">
-		    	  <div class="carousel-caption">
-		    	  	<p class="disciplina">DISEÑO DE PRODUCTOS</p>
-		    	  </div>
-		  	  </div>
-		  </div>
-	    </div>
+			<div class="item">
+				<img src="img/carousel/carousel-locales.jpg" alt="...">
+				<div class="marco">
+					<div class="banda_blanca col-xs-12"></div>
+					<div class="sobre_banda_blanca col-xs-12">
+						<div class="carousel-caption">
+							<p class="disciplina"><?php echo trans('carousel.locales')?></p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-	    <div class="item">
-	      <img src="img/carousel/carousel-locales.jpg" alt="...">
-	      <div class="marco">
-		      <div class="banda_blanca col-xs-12"></div>
-		       <div class="sobre_banda_blanca col-xs-12">
-		    	  <div class="carousel-caption">
-		    	  	<p class="disciplina">LOCALES COMERCIALES</p>
-		    	  </div>
-		  	  </div>
-		  </div>
-	    </div>
+			<div class="item">
+				<img src="img/carousel/carousel-prod_foto.jpg" alt="...">
+				<div class="marco">
+					<div class="banda_blanca col-xs-12"></div>
+					<div class="sobre_banda_blanca col-xs-12">
+						<div class="carousel-caption">
+							<p class="disciplina"><?php echo trans('carousel.prod_fot')?></p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-	    <div class="item">
-	      <img src="img/carousel/carousel-prod_foto.jpg" alt="...">
-	      <div class="marco">
-		      <div class="banda_blanca col-xs-12"></div>
-		       <div class="sobre_banda_blanca col-xs-12">
-		    	  <div class="carousel-caption">
-		    	  	<p class="disciplina">PRODUCCIONES FOTOGRÁFICAS</p>
-		    	  </div>
-		  	  </div>
-		  </div>
-	    </div>
-
-	    <div class="item">
-	      <img src="img/carousel/carousel-post-prod.jpg" alt="...">
-	      <div class="marco">
-		      <div class="banda_blanca col-xs-12"></div>
-		       <div class="sobre_banda_blanca col-xs-12">
-		    	  <div class="carousel-caption">
-		    	  	<p class="disciplina">POS-PRODUCCIÓN</p>
-		    	  </div>
-		  	  </div>
-		  </div>
-	    </div>
+			<div class="item">
+				<img src="img/carousel/carousel-post-prod.jpg" alt="...">
+				<div class="marco">
+					<div class="banda_blanca col-xs-12"></div>
+					<div class="sobre_banda_blanca col-xs-12">
+						<div class="carousel-caption">
+							<p class="disciplina"><?php echo trans('carousel.pos_prod')?></p>
+						</div>
+					</div>
+				</div>
+			</div>
 
 	  </div>
 

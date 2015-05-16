@@ -6,6 +6,6 @@ return [
 	"filter_editorial" => "editorial",
 	"filter_3d" => "3D",
 	"filter_products" => "products",
-	"filter_store" => "store",
+	"filter_store" => "stores",
 	"filter_photo" => "photography",
 ];

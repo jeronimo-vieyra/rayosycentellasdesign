@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5 {font-family: "akzidenz-grotesk_bq_light_cRg" !important}
 
 #AADD_kepot {
   position: fixed;
-  top: 230px;
+  top: 267px;
   left: 15px;
   z-index: 999;
 }
@@ -41,3 +41,19 @@ h1, h2, h3, h4, h5 {font-family: "akzidenz-grotesk_bq_light_cRg" !important}
 .blanco_sombra {color: white;     text-shadow: 2px 2px 4px #000000;}
 
 .absolute {position: relative;}
+
+
+/*RESPONSIVE */
+@media screen and (min-width: 400px) and (max-width: 700px) {
+/*Todo lo que añadamos aquí se utilizará solo en resoluciones X, donde 700px<=X<=1000px*/
+.disciplina {font-size: 2em;}
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+/*Todo lo que añadamos aquí se utilizará solo en resoluciones X, donde 700px<=X<=1000px*/
+iframe {max-width: 250px}
+.navbar {height: 50px}
+.navbar-brand {line-height: 50px}
+.navbar-toggle {margin-top: -30px}
+}

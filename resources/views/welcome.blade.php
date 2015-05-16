@@ -40,6 +40,8 @@
 
             <!-- A A D D   H O M E -->
                 <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+                <a href="#section-kepot"><img id="AADD_kepot" src="img/AADD_kepot.png" /></a><!-- B O T O N    K E P O T -->
+
 		</section>
 
 

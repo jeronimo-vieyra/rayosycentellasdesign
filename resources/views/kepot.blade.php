@@ -52,8 +52,19 @@
 							</div>
 						</div>
 
-							<p class="color-white" align="justify"><?php echo trans('kepot.description')?>
-							</p>
+						<div class="col-xs-12">
+							<p class="color-white" align="justify"><?php echo trans('kepot.description')?></p>
+						</div>
+						<br>
+						<div class="align-center">
+							<ul class="social-network social-circle \">
+		                        <li><a href="https://www.facebook.com/kepotmuebles?fref=ts" target="_blanck" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+	    	                </ul>
+						</div>
+						<br>
+						<div class="col-xs-12 text-center">
+							<iframe width="450" height="325" src="//e.issuu.com/embed.html#15172967/12193464" frameborder="0" allowfullscreen></iframe>
+						</div>
 					</div>
 				<div class="clearfix"></div>
 				</div>
