@@ -56,4 +56,7 @@ iframe {max-width: 250px}
 .navbar {height: 50px}
 .navbar-brand {line-height: 50px}
 .navbar-toggle {margin-top: -30px}
+.navbar-fixed-top { position: relative; z-index: 0}
+.disciplina {font-size: 1em;}
+.sobre_banda_blanca {height: 33%; top: 70%;}
 }

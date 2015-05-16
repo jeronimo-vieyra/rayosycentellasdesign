@@ -21,8 +21,6 @@
 						<li><a href="#section-contacto"><?php echo trans('menu.contact')?></a></li>
 						<li><a href="{{ url('/spanish') }}"><?php echo trans('menu.spanish')?></a></li>
 						<li><a href="{{ url('/english') }}"><?php echo trans('menu.english')?></a></li>
-
-						<a href="#section-kepot"><img id="AADD_kepot" src="img/AADD_kepot.png" /></a><!-- B O T O N    K E P O T -->
 					</ul>
 				</div><!--/.navbar-collapse -->
 
